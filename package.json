@@ -1,0 +1,20 @@
+{
+  "name": "allah-names-zikr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=process.env ./src/app.js",
+    "dev": "nodemon --env-file=process.env ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "allah-names-zikr": "file:",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4"
+  }
+}
